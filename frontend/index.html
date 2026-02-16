@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AI CyberShield</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="top-nav">
+    <div class="logo">AI CyberShield</div>
+    <div class="nav-links">
+        <a href="index.html">Scanner</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="assistant.html">AI Assistant</a>
+    </div>
+</nav>
+
+
+<div class="container">
+
+    <h1 class="title">AI CyberShield</h1>
+    <p class="subtitle">Enterprise Threat Intelligence Engine</p>
+
+    <div class="card scan-card">
+
+        <input type="text" id="urlInput" placeholder="Enter suspicious URL..." />
+
+        <button id="scanBtn">Analyze Threat</button>
+
+        <div class="result-box">
+            <h3 id="result">Awaiting scan...</h3>
+        </div>
+
+        <div class="risk-container">
+            <canvas id="riskGauge" width="250" height="250"></canvas>
+            <div class="risk-text">
+                <span id="riskPercent">0%</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="nav-links">
+        <a href="dashboard.html">📊 Intelligence Dashboard</a>
+    </div>
+
+</div>
+
+<script src="js/api.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy
+scikit-learn
+joblib
+python-dotenv
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+faiss-cpu
+sentence-transformers
+transformers
+torch

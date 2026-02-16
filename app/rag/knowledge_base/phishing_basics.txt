@@ -1,0 +1,18 @@
+Phishing is a social engineering cyber attack where attackers impersonate legitimate organizations to steal sensitive data such as usernames, passwords, credit card numbers, or authentication tokens.
+
+Common phishing indicators:
+- Suspicious URLs with extra characters
+- Misspelled domain names
+- Urgent language like "Act Now"
+- Fake login pages
+- Requests for confidential information
+
+Types of phishing:
+- Email phishing
+- Spear phishing
+- Whaling
+- Smishing (SMS phishing)
+- Vishing (Voice phishing)
+
+Phishing attacks often use fake HTTPS certificates to appear secure.
+Users should verify domain authenticity before entering credentials.

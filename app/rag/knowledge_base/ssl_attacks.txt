@@ -1,0 +1,17 @@
+SSL attacks target secure HTTPS connections.
+
+Common SSL-related attacks:
+- SSL stripping
+- Man-in-the-Middle (MITM)
+- Certificate spoofing
+- Expired certificate exploitation
+
+SSL stripping forces a connection from HTTPS to HTTP.
+Attackers intercept traffic between users and legitimate servers.
+
+Indicators:
+- Browser warnings
+- Invalid certificates
+- Connection not secure message
+
+Always verify HTTPS certificate authenticity.

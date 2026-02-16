@@ -1,0 +1,19 @@
+Domain spoofing occurs when attackers create fake domains that closely resemble legitimate websites.
+
+Examples:
+- paypa1.com instead of paypal.com
+- amaz0n-security.com
+
+Techniques used:
+- Typosquatting
+- Homograph attacks using Unicode characters
+- Subdomain manipulation
+- Fake SSL certificates
+
+Indicators of spoofed domains:
+- Extra hyphens
+- Multiple dots
+- Suspicious TLDs
+- Recently registered domains
+
+Domain spoofing is commonly used in phishing campaigns.
